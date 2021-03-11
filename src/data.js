@@ -12,12 +12,12 @@ export const data = [
     {
         id: 4570,
         img: './images/image 3.png',
-        name: "Efl championship",
+        name: "Carabao Cup",
     },
     {
         id: 4329,
         img: './images/image 4.png',
-        name: "Champions League",
+        name: "Sky Bet Championship",
     },
     {
         id: 4481,
