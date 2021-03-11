@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { useGlobalContext } from '../context'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowAltCircleRight } from '@fortawesome/free-solid-svg-icons'
 
 const League = ({id,img,name}) => {
  const{handleClick} = useGlobalContext()
@@ -13,7 +15,7 @@ const League = ({id,img,name}) => {
    <div className="content">
     <h4>{name}</h4>
     <p>Sports Type : Football</p>
-    <Link to={`/${id}`}><button className='btn'>Explore</button></Link>
+    <Link to={`/${id}`}><button className='btn'>Explore <FontAwesomeIcon icon={faArrowAltCircleRight} /></button></Link>
    </div>
   </div>
  )

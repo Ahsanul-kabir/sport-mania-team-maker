@@ -44,20 +44,21 @@
   display: grid;
   align-items: center;
   justify-items: center;
-  gap: 2rem;
+  gap: 3px;
   background-color: blueviolet;
-  padding: 2rem;
+  padding: 0.5rem;
 }
 
 .league {
   background-color: #fff;
-  height: 350px;
-  width: 350px;
+  height: 340px;
+  width: 340px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   border-radius: 5px;
+  margin-top: 2rem;
 }
 .img-container {
   height: 180px;
@@ -71,6 +72,8 @@
   max-width: 100%;
   max-height: 100%;
   object-fit: cover;
+  background-color: rgb(94, 97, 58);
+  border-radius: 10px;
 }
 .content {
   text-align: center;
